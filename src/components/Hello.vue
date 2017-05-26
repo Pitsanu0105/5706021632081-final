@@ -1,5 +1,6 @@
 <template>
   <div class="hello">
+    <center> <img src="https://sites.google.com/a/fitm.kmutnb.ac.th/faculty-of-industrial-technology-and-management/_/rsrc/1375689189895/logo/FITM%20LOGO%20EN%20COLOR.png?height=117&width=200"></center><br><br>
     <div class="container">
       <div class="columns is-multiline">
         <div class="column is-1">
@@ -18,8 +19,8 @@
           <input type="text" class="input" v-model="grade" placeholder="เกรดที่ได้รับ">
         </div>
         <div class="column is-half is-offset-one-quarter">
-          <input class="button is-success" value="Add" type="submit" @click="add()">
-          <input class="button" value="Reset" type="reset">
+          <input class="button is-primary is-outlined" value="Add" type="submit" @click="add()">
+          <input class="button is-danger is-outlined" value="Reset" type="reset">
         </div>
         <table class="table">
           <thead>
